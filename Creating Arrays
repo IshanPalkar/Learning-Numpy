@@ -1,0 +1,36 @@
+import numpy as np
+
+my_list1 = [1,2,3,4]
+
+my_array1 = np.array(my_list1)
+
+my_array1
+
+my_list2 = [11,22,33,44]
+
+my_lists = [my_list1,my_list2]
+
+my_array2 = np.array(my_lists)
+
+my_array2
+
+my_array2.shape
+
+my_array2.dtype
+
+np.zeros(5)
+
+my_zeros_array = np.zeros(5)
+
+my_zeros_array.dtype
+
+np.ones([5,5])
+
+np.empty(5)
+
+np.eye(5)
+
+np.arange(5)
+
+np.arange(5,50,2)
+

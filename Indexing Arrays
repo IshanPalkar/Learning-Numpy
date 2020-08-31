@@ -1,16 +1,62 @@
 import numpy as np
 
-5/2
+arr = np.arange(0,11)
 
-arr1 = np.array([[1,2,3,4],[8,9,10,11]])
+arr
 
-arr1
+arr[8]
 
-arr1*arr1
+arr[1:5]
 
-arr1-arr1
+arr[0:5]
 
-1/arr1
+arr[0:5] = 100
 
-arr1 **3
+arr
+
+arr = np.arange(0,11)
+
+arr
+
+slice_of_arr = arr[0:6]
+
+slice_of_arr
+
+slice_of_arr[:] = 99
+
+slice_of_arr
+
+arr_copy = arr.copy()
+
+arr_copy
+
+arr_2d = np.array(([5,10,15],[20,25,30],[35,40,45]))
+arr_2d
+
+arr_2d[1]
+
+arr_2d[0]
+
+arr_2d[1][0]
+
+arr_2d[:2,1:]
+
+arr_2d[2]
+
+arr2d = np.zeros((10,10))
+
+arr2d
+
+arr_length = arr2d.shape[1]
+
+arr_length
+
+for i in range(arr_length):
+    arr2d[i]=i
+
+arr2d
+
+arr2d[[2,4,6,8]]
+
+arr2d[[6,4,2,7]]
 

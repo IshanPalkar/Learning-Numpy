@@ -1,0 +1,25 @@
+import numpy as np
+
+arr = np.arange(11)
+arr
+
+np.sqrt(arr)
+
+np.exp (arr)
+
+A = np.random.randn(10)
+
+A
+
+B = np.random.randn(10)
+B
+
+#Binary Functions
+np.add(A,B)
+
+np.maximum(A,B)
+
+website = 'https://github.com/IshanPalkar/Learning-Numpy/new/master'
+import webbrowser
+webbrowser.open(website)
+
